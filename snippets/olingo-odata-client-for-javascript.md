@@ -1,6 +1,6 @@
 # Step 0: Download the library file
 Download the Olingo OData Client for JavaScript from [olingo.apache.org](http://olingo.apache.org/doc/javascript/download.html). Then add the reference below
-```
+```html
 <script src="odatajs-4.0.0-beta-01.min.js" type="text/javascript"></script>
 ```
 
