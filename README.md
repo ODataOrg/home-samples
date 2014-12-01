@@ -13,6 +13,6 @@ README.md (this README file)
 ```
 
 Anyone is welcome to contribute by:
-1. Sending pull requests for a new library or fixing the bugs in the snippet of existing libraries.
-2. Opening Github issues to ask for a new library or reporting bugs in the snippet of existing libraries.
-3. Providing advice or suggestions via Github issues.
+ 1. Sending pull requests for a new library or fixing the bugs in the snippet of existing libraries.
+ 2. Opening Github issues to ask for a new library or reporting bugs in the snippet of existing libraries.
+ 3. Providing advice or suggestions via Github issues.
