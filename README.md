@@ -5,11 +5,11 @@ For the current status of the section, please view it at http://www.odata.org.
 The repository is organized as follows:
 ```
 snippets/
-  name-of-the-library-1.md
-  name-of-the-library-2.md
+  name-of-the-library-1.md ---> library 1
+  name-of-the-library-2.md ---> library 2
   ...
-texts.md (texts of the section)
-README.md (this README file)
+texts.md ---> texts of the section
+README.md ---> this README file
 ```
 
 Anyone is welcome to contribute by:
