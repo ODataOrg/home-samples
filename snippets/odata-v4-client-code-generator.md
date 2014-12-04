@@ -40,7 +40,7 @@ var lewis = new Person()
     Gender = PersonGender.Male,
     Concurrency = 635519729375200400
 };
-context.AddObject("People", person);
+context.AddObject("People", lewis);
 context.SaveChanges();
 ```
 
