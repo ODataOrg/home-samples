@@ -8,18 +8,18 @@ OData-MaxVersion: 4.0
 Response:
 ```HTTP
 HTTP/1.1 200 OK
- 
+
 Content-Length: 1007
 Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
- 
+
 {
     "@odata.context": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/$metadata#People",
     "@odata.nextLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People?%24skiptoken=8",
     "value": [
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('russellwhyte')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('russellwhyte')",
             "UserName": "russellwhyte",
             "FirstName": "Russell",
@@ -45,7 +45,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('scottketchum')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('scottketchum')",
             "UserName": "scottketchum",
             "FirstName": "Scott",
@@ -68,7 +68,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('ronaldmundy')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('ronaldmundy')",
             "UserName": "ronaldmundy",
             "FirstName": "Ronald",
@@ -83,7 +83,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('javieralfred')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('javieralfred')",
             "UserName": "javieralfred",
             "FirstName": "Javier",
@@ -107,7 +107,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('willieashmore')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('willieashmore')",
             "UserName": "willieashmore",
             "FirstName": "Willie",
@@ -122,7 +122,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('vincentcalabrese')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('vincentcalabrese')",
             "UserName": "vincentcalabrese",
             "FirstName": "Vincent",
@@ -146,7 +146,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('clydeguess')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('clydeguess')",
             "UserName": "clydeguess",
             "FirstName": "Clyde",
@@ -160,7 +160,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('keithpinckney')",
-            "@odata.etag": "W/"08D1D5BD423E5158"",
+            "@odata.etag": "W/\"08D1D5BD423E5158\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(a2k31bgwiyejn2j2iiybvq4p))/TripPinServiceRW/People('keithpinckney')",
             "UserName": "keithpinckney",
             "FirstName": "Keith",
@@ -187,16 +187,16 @@ OData-MaxVersion: 4.0
 Response:
 ```HTTP
 HTTP/1.1 200 OK
- 
+
 Content-Length: 482
 Content-Type: application/json; odata.metadata=minimal
 ETag: W/"08D1D5BE987DE78B"
 OData-Version: 4.0
- 
+
 {
     "@odata.context": "http://services.odata.org/V4/(S(ak3ckilwx5ajembdktfunu0v))/TripPinServiceRW/$metadata#People/$entity",
     "@odata.id": "http://services.odata.org/V4/(S(ak3ckilwx5ajembdktfunu0v))/TripPinServiceRW/People('russellwhyte')",
-    "@odata.etag": "W/"08D1D5BE987DE78B"",
+    "@odata.etag": "W/\"08D1D5BE987DE78B\"",
     "@odata.editLink": "http://services.odata.org/V4/(S(ak3ckilwx5ajembdktfunu0v))/TripPinServiceRW/People('russellwhyte')",
     "UserName": "russellwhyte",
     "FirstName": "Russell",
@@ -234,24 +234,24 @@ var people =
 Response:
 ```HTTP
 HTTP/1.1 200 OK
- 
+
 Content-Length: 367
 Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
- 
+
 {
     "@odata.context": "http://services.odata.org/V4/(S(cn0zbczilimhpqbgnre0usaz))/TripPinServiceRW/$metadata#People(FirstName,LastName)",
     "value": [
         {
             "@odata.id": "http://services.odata.org/V4/(S(cn0zbczilimhpqbgnre0usaz))/TripPinServiceRW/People('scottketchum')",
-            "@odata.etag": "W/"08D1D5BEF93F01A6"",
+            "@odata.etag": "W/\"08D1D5BEF93F01A6\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(cn0zbczilimhpqbgnre0usaz))/TripPinServiceRW/People('scottketchum')",
             "FirstName": "Scott",
             "LastName": "Ketchum"
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(cn0zbczilimhpqbgnre0usaz))/TripPinServiceRW/People('ronaldmundy')",
-            "@odata.etag": "W/"08D1D5BEF93F01A6"",
+            "@odata.etag": "W/\"08D1D5BEF93F01A6\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(cn0zbczilimhpqbgnre0usaz))/TripPinServiceRW/People('ronaldmundy')",
             "FirstName": "Ronald",
             "LastName": "Mundy"
@@ -268,7 +268,7 @@ OData-Version: 4.0
 OData-MaxVersion: 4.0
 Content-Length: 428
 Content-Type: application/json
- 
+
 {
     "UserName":"lewisblack",
     "FirstName":"Lewis",
@@ -293,7 +293,7 @@ Content-Type: application/json
 Response:
 ```HTTP
 HTTP/1.1 201 Created
- 
+
 Content-Length: 652
 Content-Type: application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false;charset=utf-8
 ETag: W/"08D1D3800FC572E3"
@@ -309,7 +309,7 @@ OData-Version: 4.0
 OData-MaxVersion: 4.0
 Content-Length: 123
 Content-Type: application/json
- 
+
 {
     "@odata.id":"http://services.odata.org/V4/(S(34wtn2c0hkuk5ekg0pjr513b))/TripPinServiceRW/People('russellwhyte')/Trips(0)"
 }
@@ -331,17 +331,17 @@ OData-MaxVersion: 4.0
 Response:
 ```HTTP
 HTTP/1.1 200 OK
- 
+
 Content-Length: 582
 Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
- 
+
 {
     "@odata.context": "http://services.odata.org/V4/(S(34wtn2c0hkuk5ekg0pjr513b))/TripPinServiceRW/$metadata#People",
     "value": [
         {
             "@odata.id": "http://services.odata.org/V4/(S(34wtn2c0hkuk5ekg0pjr513b))/TripPinServiceRW/People('russellwhyte')",
-            "@odata.etag": "W/"08D1D5BFB48CE017"",
+            "@odata.etag": "W/\"08D1D5BFB48CE017\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(34wtn2c0hkuk5ekg0pjr513b))/TripPinServiceRW/People('russellwhyte')",
             "UserName": "russellwhyte",
             "FirstName": "Russell",
@@ -367,7 +367,7 @@ OData-Version: 4.0
         },
         {
             "@odata.id": "http://services.odata.org/V4/(S(34wtn2c0hkuk5ekg0pjr513b))/TripPinServiceRW/People('scottketchum')",
-            "@odata.etag": "W/"08D1D5BFB48CE017"",
+            "@odata.etag": "W/\"08D1D5BFB48CE017\"",
             "@odata.editLink": "http://services.odata.org/V4/(S(34wtn2c0hkuk5ekg0pjr513b))/TripPinServiceRW/People('scottketchum')",
             "UserName": "scottketchum",
             "FirstName": "Scott",
