@@ -6,7 +6,7 @@ Download and install the Node.js platform from [nodejs.org] then run the snippet
 var http = require("http");
 var serviceRoot = "http://services.odata.org/v4/TripPinServiceRW/";
 
-getURL(serviceRoot + "/People");
+getURL(serviceRoot + "People");
 
 function getURL(url) {
     var body = "";
