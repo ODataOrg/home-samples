@@ -5,24 +5,31 @@ const port = 3000
 const axios = require('axios');
 
 app.get('/', (req, res) => {
-   axios
-  .get('https://dog.ceo/api/breeds/list/all')
-  .then(async data => {
-    console.log(data.data)
-    await res.send(JSON.stringify(data.data))
-  })
-  .catch(error => {
-    console.error(error.message);
-  });
+   res.send(`call routes "/odata_one" or "/odata_two"`);
 })
 
-app.get('/odata', (req, res)=> {
+app.get('/odata_one', (req, res)=> {
   let serviceRoot = 'https://services.odata.org/v4/TripPinServiceRW/';
 
   axios.get(`${serviceRoot}People`)
   .then(async (data)=> {
     console.log(data);
     res.send(data.data.value)
+  })
+  .catch(async (err)=> {
+    console.log(err)
+  })
+})
+
+
+app.get('/odata_two', (req, res)=> {
+  let serviceRoot = 'https://services.odata.org/v4/TripPinServiceRW/';
+  let name = ('russellwhyte');
+
+  axios.get(`${serviceRoot}People('russellwhyte')`)
+  .then(async (data)=> {
+    console.log(data);
+    res.send(data.data)
   })
   .catch(async (err)=> {
     console.log(err)
